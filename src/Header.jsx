@@ -23,22 +23,25 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto mb-1 mb-lg-0">
                         <li className="nav-item nav-li fs-6 p-1 px-0 mx-0 m-1">
-                            <Link className="nav-link text-white text-center" to='/home'>Home</Link>
+                            <Link className="nav-link text-secondary text-center" to='/home'>Home</Link>
                         </li>
                         <li className="nav-item nav-li fs-6 p-1 px-0 mx-0 m-1">
-                            <Link className="nav-link text-white text-center" to='/resources'>Resources</Link>
+                            <Link className="nav-link text-secondary text-center" to='/resources'>Resources</Link>
                         </li>
                         <li className="nav-item nav-li fs-6 p-1 px-0 mx-0 m-1">
-                            <Link className="nav-link text-white text-center" to="/resumes">Resumes</Link>
+                            <Link className="nav-link text-secondary text-center" to='/mymemory'>My Memory</Link>
                         </li>
                         <li className="nav-item nav-li fs-6 p-1 px-0 mx-0 m-1">
-                            <Link className="nav-link text-white text-center" to="/skills">Skill Development</Link>
+                            <Link className="nav-link text-secondary text-center" to="/resumes">Resumes</Link>
                         </li>
                         <li className="nav-item nav-li fs-6 p-1 px-0 mx-0 m-1">
-                            <Link className="nav-link text-white text-center" to="/projects">My Projects</Link>
+                            <Link className="nav-link text-secondary text-center" to="/skills">Skill Development</Link>
                         </li>
                         <li className="nav-item nav-li fs-6 p-1 px-0 mx-0 m-1">
-                            <Link className="nav-link text-white text-center" to="/profiles">My Profiles</Link>
+                            <Link className="nav-link text-secondary text-center" to="/projects">My Projects</Link>
+                        </li>
+                        <li className="nav-item nav-li fs-6 p-1 px-0 mx-0 m-1">
+                            <Link className="nav-link text-secondary text-center" to="/profiles">My Profiles</Link>
                         </li>
 
                     </ul>
