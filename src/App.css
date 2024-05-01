@@ -72,3 +72,17 @@ a {
 .animate {
   animation: moveRight 1s linear ;
 } */
+
+
+.side-link:hover{
+  width: 100% !important;
+  transition-timing-function: ease-out;
+  transition-duration: 0.5s;
+  color: white !important;
+}
+.side-link > a:hover{
+  color: white !important;
+}
+details>summary {
+   list-style: none ;
+}

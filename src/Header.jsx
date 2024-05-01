@@ -38,11 +38,11 @@ function Header() {
                             <Link className="nav-link text-secondary text-center" to="/skills">Skill Development</Link>
                         </li>
                         <li className="nav-item nav-li fs-6 p-1 px-0 mx-0 m-1">
-                            <Link className="nav-link text-secondary text-center" to="/projects">My Projects</Link>
+                            <Link className="nav-link text-secondary text-center" to="/projects">Profiles</Link>
                         </li>
-                        <li className="nav-item nav-li fs-6 p-1 px-0 mx-0 m-1">
+                        {/* <li className="nav-item nav-li fs-6 p-1 px-0 mx-0 m-1">
                             <Link className="nav-link text-secondary text-center" to="/profiles">My Profiles</Link>
-                        </li>
+                        </li> */}
 
                     </ul>
                     {/* Add your search form or other elements here */}
