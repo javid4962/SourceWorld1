@@ -36,7 +36,8 @@ function Resources() {
             <hr className="m-0 p-0"/>
             <div className="bg-black">
                 <h3 className="mb-0 p-3 text-white"># Resources</h3>
-                <div className="album py-5  m-0">
+                <h6 className="text-center text-light bg-secondary text-uppercase p-2">Job Searching Platforms</h6>
+                <div className="album py-4  m-0">
                     <div className="container-fluid">
 
                         <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-3">

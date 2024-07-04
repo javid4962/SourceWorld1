@@ -65,6 +65,9 @@ const oc1 = "/Certificates/Others/Microsoft-Azure.png"
 const oc2 = "/Certificates/Others/Hackerrank-CSS.png"
 
 export default function MyProjects() {
+    function toTop(){
+        window.scrollTo({top:0, ScrollBehavior:'smooth'})
+    }
     return (
         <>
             <Header />
@@ -75,13 +78,13 @@ export default function MyProjects() {
                 <div className="position-sticky z-2 d-inline-block" style={{ top: '15%' }}>
                     <nav className="navbar-nav ms-auto mb-1 mb-lg-0 d-flex gap-0  " >
                         <li className="nav-item  side-link" style={{ width: '45%' }}>
-                            <a className="nav-link text-secondary px-2 py-1 text-center overflow-hidden bg-dark border border-black" href='#Projects' style={{  textOverflow: 'ellipsis' }}>Projects</a>
+                            <a className="nav-link text-secondary px-2 py-1 text-center overflow-hidden bg-dark border border-black" href='#Projects' style={{ textOverflow: 'ellipsis' }}>Projects</a>
                         </li>
                         <li className="nav-item side-link" style={{ width: '45%' }}>
-                            <a className="nav-link text-secondary px-2 py-1 text-center overflow-hidden bg-dark border border-black" href='#Certificates' style={{  textOverflow: 'ellipsis' }}>Certificates</a>
+                            <a className="nav-link text-secondary px-2 py-1 text-center overflow-hidden bg-dark border border-black" href='#Certificates' style={{ textOverflow: 'ellipsis' }}>Certificates</a>
                         </li>
                         <li className="nav-item side-link" style={{ width: '45%' }}>
-                            <a className="nav-link text-secondary px-2 py-1 text-center overflow-hidden bg-dark border border-black" href='#Profiles' style={{  textOverflow: 'ellipsis' }}>Profiles</a>
+                            <a className="nav-link text-secondary px-2 py-1 text-center overflow-hidden bg-dark border border-black" href='#Profiles' style={{ textOverflow: 'ellipsis' }}>Profiles</a>
                         </li>
 
 
@@ -287,7 +290,7 @@ export default function MyProjects() {
                                 <img src={bg10_1} alt="" className="d-sm-block d-md-block p-2 img-fluid " loading="lazy" style={{ height: "300px" }} />
                                 <img src={bg10_2} alt="" className="d-sm-block d-md-block p-2 img-fluid " loading="lazy" style={{ height: "300px" }} />
                                 <img src={bg10_3} alt="" className="d-sm-block d-md-block p-2 img-fluid " loading="lazy" style={{ height: "300px" }} />
-                                <iframe height={'300px'} src="https://www.youtube.com/embed/TS6rv5w6gg8?si=Bg44y3nsR8jryf8-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+                                <iframe height={'300px'} src="https://www.youtube.com/embed/TS6rv5w6gg8?si=Bg44y3nsR8jryf8-" title="YouTube video player" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen ></iframe>
                             </div>
                             <div className="col p-4 d-flex flex-column overflow-auto ">
                                 <h3 className="mb-0"><a href="https://github.com/javid4962/Shoes-Ecommerce-Website" target="blank" className="text-primary">Shoe's Den - Ecommerce</a></h3>
@@ -374,7 +377,7 @@ export default function MyProjects() {
                 {/* Certificates section */}
                 <h3 className="p-3 text-white" id="Certificates"># My Certificates</h3>
 
-                    {/* internship certificates */}
+                {/* internship certificates */}
                 <h6 className="text-center text-white text-uppercase mt-5 bg-secondary p-2">Internship Certificates</h6>
                 <div className="row container-fluid m-0 g-3 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4" >
 
@@ -407,7 +410,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* Cisco VIP in CyberSecurity */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -434,7 +437,7 @@ export default function MyProjects() {
                         </div>
                     </div>
                     {/* Cisco JavaScript Essentials */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -462,7 +465,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* OctaNet WebDevelopment Internship */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -490,7 +493,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* SmartInternz -LTVI Frontend */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -518,7 +521,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* LearnFlow Internship */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -546,7 +549,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* SmartInternz-VI WordPress */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -574,7 +577,7 @@ export default function MyProjects() {
                     </div>
                 </div>
 
-                    {/* Course Completion Certificates */}
+                {/* Course Completion Certificates */}
                 <h6 className="text-center text-white text-uppercase mt-5 bg-secondary p-2">Course Completion Certificates</h6>
                 <div className="row container-fluid m-0 g-3 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4" >
 
@@ -607,7 +610,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* C Programming - CodeTantra */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -635,7 +638,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* Python Programming - CodeTantra */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -663,7 +666,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* MongoDB - CodeTantra */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -691,7 +694,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* TCS Communication */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -719,7 +722,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* TCS Resume Writing & Cover Letter */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -747,7 +750,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* NPTEL Machine learning */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -775,7 +778,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* NPTEL Operating System Fundamentals */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -803,7 +806,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* JavaScript Essentials */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -831,7 +834,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* HTML Essesntials */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -859,7 +862,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* Learning ECMAScript */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -887,7 +890,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* React.js Learning */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -915,7 +918,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* Python & SQL */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -941,9 +944,9 @@ export default function MyProjects() {
                             </details>
                         </div>
                     </div>
-                    
+
                     {/* Basics of Programming in Java */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -971,7 +974,7 @@ export default function MyProjects() {
                     </div>
                 </div>
 
-                    {/* Other Certificates */}
+                {/* Other Certificates */}
                 <h6 className="text-center text-white text-uppercase mt-5 bg-secondary p-2">Other Certificates</h6>
                 <div className="row container-fluid m-0 g-3 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4" >
 
@@ -1004,7 +1007,7 @@ export default function MyProjects() {
                     </div>
 
                     {/* Hackerrank CSS Basics */}
-                     <div className="col ">
+                    <div className="col ">
                         <div className=" g-0  rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                             {/* project thumbnail */}
                             <details>
@@ -1032,8 +1035,8 @@ export default function MyProjects() {
                     </div>
 
                 </div>
+                <Profiles />
             </div>
-            <Profiles />
             <Footer />
         </>
 

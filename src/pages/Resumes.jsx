@@ -19,7 +19,12 @@ export default function Resumes() {
         "/resumes/Format 13.pdf",
         "/resumes/Format 14.pdf",
         "/resumes/Format 15.pdf",
-        "/resumes/Format 16.pdf"
+        "/resumes/Format 16.pdf",
+        "/resumes/Format 17.pdf",
+        "/resumes/Format 18.pdf",
+        "/resumes/Format 19.pdf",
+        "/resumes/Format 20.pdf"
+        
 
     ];
 
@@ -41,7 +46,7 @@ export default function Resumes() {
                 </section>
                 <div className="album py-5">
                     <div className="container-fluid">
-                        <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-0 ">
+                        <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-1 ">
 
                             <div className="col p-3 m-0 ">
                                 <div className="card shadow-sm border-0 rounded">
@@ -332,6 +337,83 @@ export default function Resumes() {
                                     </div>
                                 </div>
                             </div>
+                            <div className="col p-3 m-0">
+                                <div className="card shadow-sm border-0">
+                                    <iframe
+                                        src={resumes[16]}
+                                        height="350px"
+                                        loading="lazy"
+                                    ></iframe>
+                                    <div className="card-body bg-dark text-white">
+                                        {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                        <div className="d-flex justify-content-between align-items-center">
+                                            <div className="btn-group">
+                                                <button type="button" className="btn btn-sm btn-outline-warning"><a href={resumes[15]} target="blank" className="text-white">View</a></button>
+                                                <button type="button" className="btn btn-sm btn-outline-warning"><a href={resumes[15]} download={true} className="text-white">Download</a></button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col p-3 m-0">
+                                <div className="card shadow-sm border-0">
+                                    <iframe
+                                        src={resumes[17]}
+                                        height="350px"
+                                        loading="lazy"
+                                    ></iframe>
+                                    <div className="card-body bg-dark text-white">
+                                        {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                        <div className="d-flex justify-content-between align-items-center">
+                                            <div className="btn-group">
+                                                <button type="button" className="btn btn-sm btn-outline-warning"><a href={resumes[15]} target="blank" className="text-white">View</a></button>
+                                                <button type="button" className="btn btn-sm btn-outline-warning"><a href={resumes[15]} download={true} className="text-white">Download</a></button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col p-3 m-0">
+                                <div className="card shadow-sm border-0">
+                                    <iframe
+                                        src={resumes[18]}
+                                        height="350px"
+                                        loading="lazy"
+                                    ></iframe>
+                                    <div className="card-body bg-dark text-white">
+                                        {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                        <div className="d-flex justify-content-between align-items-center">
+                                            <div className="btn-group">
+                                                <button type="button" className="btn btn-sm btn-outline-warning"><a href={resumes[15]} target="blank" className="text-white">View</a></button>
+                                                <button type="button" className="btn btn-sm btn-outline-warning"><a href={resumes[15]} download={true} className="text-white">Download</a></button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col p-3 m-0">
+                                <div className="card shadow-sm border-0">
+                                    <iframe
+                                        src={resumes[19]}
+                                        height="350px"
+                                        loading="lazy"
+                                    ></iframe>
+                                    <div className="card-body bg-dark text-white">
+                                        {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                        <div className="d-flex justify-content-between align-items-center">
+                                            <div className="btn-group">
+                                                <button type="button" className="btn btn-sm btn-outline-warning"><a href={resumes[15]} target="blank" className="text-white">View</a></button>
+                                                <button type="button" className="btn btn-sm btn-outline-warning"><a href={resumes[15]} download={true} className="text-white">Download</a></button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
 
                         </div>
                     </div>
