@@ -1,4 +1,4 @@
-    import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Parent from "./pages/Parent.jsx";
 import Home from "./pages/Home.jsx";
 import Resources from "./pages/Resources.jsx";
@@ -17,15 +17,15 @@ export default function App() {
 
             <BrowserRouter>
                 <Routes>
-                    <Route path="/Interview" element={<Interview />} />
-                    <Route path="/projects" element={<MyProjects />} />
-                    <Route path="/skills" element={<Skills />} />
-                    <Route path="/resumes" element={<Resumes />} />
-                    {/* <Route path="/mymemory" element={<Mymemory />} /> */}
-                    <Route path="/resources" element={<Resources />} />
-                    <Route path="/profiles" element={<Profiles />} />
-                    {/* <Route path='/' element={<Home />}> */}
                     <Route path='/home' element={<Home />} />
+                    <Route path="/resources" element={<Resources />} />
+                    <Route path="/resumes" element={<Resumes />} />
+                    <Route path="/skills" element={<Skills />} />
+                    <Route path="/projects" element={<MyProjects />} />
+                    <Route path="/Interview" element={<Interview />} />
+                    {/* <Route path="/mymemory" element={<Mymemory />} /> */}
+                    {/* <Route path="/profiles" element={<Profiles />} /> */}
+                    {/* <Route path='/' element={<Home />}> */}
                     <Route path='/' element={<Parent />}>
                     </Route>
                 </Routes>

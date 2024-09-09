@@ -10,7 +10,7 @@ export default function Footer() {
                 <li className="m-2"><Link to="/resumes" className=" p-0 text-secondary m-0 nav-link">Resumes</Link></li>
                 <li className="m-2"><Link to="/skills" className=" p-0 text-secondary m-0 nav-link">Skill Development</Link></li>
                 <li className="m-2"><Link to="/projects" className=" p-0 text-secondary m-0 nav-link"> My Projects</Link></li>
-                <li className="m-2"><Link to="/profiles" className=" p-0 text-secondary m-0 nav-link"> My Profiles</Link></li>
+                {/* <li className="m-2"><Link to="/profiles" className=" p-0 text-secondary m-0 nav-link"> My Profiles</Link></li> */}
             </ul>
             <p className="text-center mt-2">© {new Date().getFullYear()} SourceWorld</p>
         </footer>
