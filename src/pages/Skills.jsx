@@ -99,7 +99,7 @@ export default function Skills() {
                 <div className="container-fluid row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 m-0">
                     {
                         skillData.map(skill => {
-                            console.log(skill)
+                            // console.log(skill)
                             return <SkillCard {...skill} />
                         })
                     }
